@@ -139,7 +139,9 @@ h3{
     }
 }
 @media(max-width:600px){
-    
+    body{
+        height: auto;
+    }
     .container{
         min-width: 300px;
         width: 100%;
