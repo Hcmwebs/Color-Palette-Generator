@@ -130,7 +130,6 @@ h3{
 @media(max-width: 900px){
     body{
         height: auto;
-        padding: 0rem 2rem;
     }
     .container{
         min-width: 620px;
@@ -139,7 +138,9 @@ h3{
     .card{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .btn{
+        width: auto;
+    }
 }
 @media(max-width:600px){
     
@@ -149,9 +150,6 @@ h3{
     }
     .card{
         grid-template-columns: 1fr;
-    }
-    .btn{
-        width: 80%;
     }
 
 }

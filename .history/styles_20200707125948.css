@@ -130,7 +130,6 @@ h3{
 @media(max-width: 900px){
     body{
         height: auto;
-        padding: 0rem 2rem;
     }
     .container{
         min-width: 620px;
