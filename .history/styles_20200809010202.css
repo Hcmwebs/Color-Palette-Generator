@@ -125,7 +125,7 @@ h3 {
   cursor: pointer;
 }
 .btn--white {
- background-color: #fff;
+  border:none;
   color: #000;
   
 
@@ -145,8 +145,8 @@ h3 {
 }
 @media (max-width: 600px) {
   .container {
+    min-width: 300px;
     width: 100%;
-    min-width: 3500px;
   }
   .card {
     grid-template-columns: 1fr;

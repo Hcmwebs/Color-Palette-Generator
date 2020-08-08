@@ -146,7 +146,7 @@ h3 {
 @media (max-width: 600px) {
   .container {
     width: 100%;
-    min-width: 3500px;
+    min-width: 350px;
   }
   .card {
     grid-template-columns: 1fr;
