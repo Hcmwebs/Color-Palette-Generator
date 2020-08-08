@@ -47,7 +47,7 @@ h3 {
   border-radius: 2.5rem;
   background-color: #000;
   color: #fff;
-  transition: all 0.7s ease-in;
+  transition: all 1s ease-in-out;
 }
 .btn:hover {
   transform: scale(1.01);
@@ -70,7 +70,7 @@ h3 {
   align-items: center;
   background-color: #fff;
   cursor:pointer;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }
 
 .card__item:hover {
