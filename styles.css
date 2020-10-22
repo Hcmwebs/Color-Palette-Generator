@@ -68,8 +68,8 @@ h3 {
 .card__item {
   width: 207px;
   height: 329px;
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
@@ -86,10 +86,12 @@ h3 {
 }
 
 .card__color {
-  width: 187px;
-  height: 251px;
+  width: 100%;
+  height: 100%;
   border-radius: 0.5rem;
-  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card__color--lightPurpleish {
   background-color: #eeedf0;
@@ -114,6 +116,10 @@ h3 {
   font-size: 1.1rem;
   font-weight: 400;
   margin: auto;
+  color:#fff;
+  border:1px solid #fff;
+  padding: 4px 7px;
+  border-radius: 0.3rem;
 }
 
 .btn--generate {
@@ -127,7 +133,7 @@ h3 {
 .btn--white {
  background-color: #fff;
   color: #000;
-  
+
 
 }
 @media (max-width: 900px) {
